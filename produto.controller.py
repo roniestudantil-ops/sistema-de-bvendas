@@ -33,8 +33,3 @@ def cadastrar_produtos():
     
     
     return jsonify({"Produto cadastrado com sucesso"}),
-
-
-
-if __name__=="__main__":
-    app.run(debug=True, port=8080)
