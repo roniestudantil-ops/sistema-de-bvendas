@@ -1,6 +1,6 @@
 from flask import Flask
 from categoria_controller import categoria_bp
-from produto_controller import produto_bp
+from produto.controller import produto_bp
 
 app = Flask(__name__)
 
@@ -11,3 +11,4 @@ app.register_blueprint(produto_bp)
 def home():
 
     return {"status": "API rodando"}
+
