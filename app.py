@@ -9,4 +9,5 @@ app.register_blueprint(produto_bp)
 
 @app.route("/")
 def home():
+
     return {"status": "API rodando"}
